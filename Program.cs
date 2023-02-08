@@ -20,7 +20,16 @@ namespace VariablesCS
       //Asks user what their name is and greets them back.
       Console.Write("What is your name? ");
       var name = Console.ReadLine();
-      Console.WriteLine($"It is a pleasure to meet you, {name}! :)");
+      
+      if (name == "Alice") {
+         
+          Console.WriteLine("Woah, like Alice in Wonderland? Nice to meet you!");
+
+      }
+      else {
+          Console.WriteLine($"It is a pleasure to meet you, {name}! :)");
+      }
+      
 
       //Asks user to enter 2 numbers and store them as strings, then converts them to doubles
       Console.Write("Please enter your first number: ");
