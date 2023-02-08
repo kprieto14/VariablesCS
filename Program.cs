@@ -4,9 +4,8 @@ namespace VariablesCS
 {
   class Program
   {
-    static void Main(string[] args)
-    {
-      // declaring # of cups of coffee I drink per day
+    static void Epic() {
+        // declaring # of cups of coffee I drink per day
       var numberOfCupsOfCoffee = 0;
       // Declaring my full name
       var fullName = "Kristy Prieto";
@@ -51,6 +50,10 @@ namespace VariablesCS
       Console.WriteLine($"The fun doesn't stop there, what do you get if you multiply {firstNumberAsString} with {secondNumberAsString}? That's right, you get {product}!");
       Console.WriteLine($"Why stop there? Lets divide {firstNumberAsString} by {secondNumberAsString}. If you guessed {quotient}, you're right!");
       Console.WriteLine($"And to top it all off, what is the remainder when you divide {firstNumberAsString} by {secondNumberAsString}? That's right, it's {remainder}!");
+    }
+    static void Main(string[] args)
+    {
+      Epic();
     }
   }
 }
